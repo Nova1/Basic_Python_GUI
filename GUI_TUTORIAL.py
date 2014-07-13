@@ -25,7 +25,7 @@ class App(Frame): #The 'F' in frame has to be a captial letter as when putting a
         self.tutorial = tk.Button(self)
         self.tutorial["text"] = ("Tutorial Button") #This is what text is going to be shown on the button.
         self.tutorial["command"] = self.tutorial_message #When this button is pressed what is going to be carried out? This is going to be defined later on.
-        self.tutoria;.pack(side="bottom") # Where the button is going to be in the GUI
+        self.tutorial.pack(side="bottom") # Where the button is going to be in the GUI
 
         self.QUIT = tk.Button(self, text="QUIT", fg="red", command=root.destroy) #'fg' is the colour, 'root.destroy' is basically the command in which to close the GUI.
         self.QUIT.pack(side="bottom") #Where the button is going to be in the GUI.
